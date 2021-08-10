@@ -22,13 +22,11 @@ jobs:
     - name: Install test dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest pycodestyle
+        pip install pytest flake8
 
     - name: Test the code style
       run: |
-        ls -1 xlsxwriter/*.py | egrep -v "theme|compat|__init__" | xargs pycodestyle
-        pycodestyle --ignore=E501 xlsxwriter/theme.py
-        find xlsxwriter/test -name \*.py | xargs pycodestyle --ignore=E501
+        make test_codestyle
 
     - name: Test with pytest
       run: |
