@@ -64,3 +64,4 @@ See the full documentation at: https://xlsxwriter.readthedocs.io
 
 Release notes: https://xlsxwriter.readthedocs.io/changes.html
 
+
