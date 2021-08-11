@@ -34,10 +34,10 @@ body:
     label: Sample code to reproduce
     description: Please add a small, complete, sample program that demonstrates your issue.
     value: |
-        - XlsxWriter version:
+        ```python
         - Python version:
         - Excel version:
-        - OS:
+        ```
     render: markdown
   validations:
     required: false
