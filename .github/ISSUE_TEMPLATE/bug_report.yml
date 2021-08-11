@@ -38,6 +38,15 @@ body:
   validations:
     required:  true
 
+
+- type: checkboxes
+  attributes:
+    label: OpenOffice and LibreOffice users
+    description: OpenOffice and LibreOffice do not always render xlsx files in the same way as Excel. It is important to first check if the issue you are reporting is due tto XlsxWriter or to OpenOffice or LibreOffice.
+    options:
+    - label: I have tested the output file with Excel.
+      required: true
+
 - type: textarea
   attributes:
     label: Anything else?
@@ -48,11 +57,4 @@ body:
   validations:
     required: false
 
-- type: checkboxes
-  attributes:
-    label: OpenOffice and Libreoffice users
-    description: Please search to see if an issue already exists for the bug you encountered.
-    options:
-    - label: I have searched the existing issues
-      required: true
 
