@@ -13,11 +13,11 @@ body:
 
 - type: markdown
   attributes:
-    value: |
+    value: >
       General questions on how to do something with the XlsxWriter module should be asked on [StackOverflow](http://stackoverflow.com/questions/tagged/xlsxwriter).
       Add the `xlsxwriter` tag to the question. This has a better chance of getting several answers and also helps others who might have similar questionsin the
       future.
-
+      \n
       Other questions can be asked below.
 
 - type: textarea
