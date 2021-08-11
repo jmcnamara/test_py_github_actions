@@ -84,4 +84,4 @@ body:
       or to OpenOffice or LibreOffice.
     options:
     - label: I have tested the output file with Excel.
-      required: true
+      required: false
