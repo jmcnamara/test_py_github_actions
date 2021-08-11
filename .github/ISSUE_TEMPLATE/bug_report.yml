@@ -42,7 +42,10 @@ body:
 - type: checkboxes
   attributes:
     label: OpenOffice and LibreOffice users
-    description: OpenOffice and LibreOffice do not always render xlsx files in the same way as Excel. It is important to first check if the issue you are reporting is due tto XlsxWriter or to OpenOffice or LibreOffice.
+    description: >
+      OpenOffice and LibreOffice do not always render xlsx files in the same way as Excel. 
+      It is important to first check if the issue you are reporting is due tto XlsxWriter
+      or to OpenOffice or LibreOffice.
     options:
     - label: I have tested the output file with Excel.
       required: true
