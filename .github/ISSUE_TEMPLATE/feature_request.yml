@@ -1,0 +1,24 @@
+name: ❓ Feature Request
+
+description: Feature request for xlsxwriter
+
+title: "feature request: <add a description here>"
+
+labels: [feature request]
+
+assignees:
+  - jmcnamara
+
+body:
+
+- type: markdown
+  attributes:
+    value: |
+      Use the dialog box below to request a new feature in XlsxWriter.
+
+- type: textarea
+  attributes:
+    label: Feature Request
+    description: Feature request
+  validations:
+    required: true
