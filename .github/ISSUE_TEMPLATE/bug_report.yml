@@ -33,10 +33,14 @@ body:
   attributes:
     label: Sample code to reproduce
     description: Please add a small, complete, sample program that demonstrates your issue.
-    placeholder: |
-      some code.
+    value: |
+        - XlsxWriter version:
+        - Python version:
+        - Excel version:
+        - OS:
+    render: markdown
   validations:
-    required:  true
+    required: false
 
 - type: textarea
   attributes:
