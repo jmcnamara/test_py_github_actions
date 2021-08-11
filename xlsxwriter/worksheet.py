@@ -96,7 +96,7 @@ def convert_range_args(method):
 
         try:
             # First arg is an int, default to row/col notation.
-            if len(args): 
+            if len(args):
                 int(args[0])
         except ValueError:
             # First arg isn't an int, convert to A1 notation.
