@@ -13,19 +13,19 @@ body:
 
 - type: markdown
   attributes:
-    value: Please fill in the title above and the mandatory sections below to submit your bug report.
+    value: Please fill in the title above and the sections below to submit your bug report.
 
 - type: textarea
   attributes:
     label: Current behavior
-    description: A concise description of what you're experiencing.
+    description: A description of what you're experiencing.
   validations:
     required: true
 
 - type: textarea
   attributes:
     label: Expected behavior
-    description: A concise description of what you expected to happen.
+    description: A description of what you expected to happen.
   validations:
     required: true
 
@@ -42,26 +42,16 @@ body:
   attributes:
     label: Environment
     description: |
-      examples:
+      Any any relevant version or system information:
     value: |
+        - XlsxWriter version:
+        - Python version:
+        - Excel version:
         - OS:
-        - Node:
-        - npm:
     render: markdown
   validations:
     required: false
 
-- type: checkboxes
-  attributes:
-    label: OpenOffice and LibreOffice users
-    description: >
-      XlsxWriter maintains a high level of compatibility with Excel. However,
-      OpenOffice and LibreOffice do not always render xlsx files in the same way as Excel. 
-      It is important to first check if the issue you are reporting is due to XlsxWriter
-      or to OpenOffice or LibreOffice.
-    options:
-    - label: I have tested the output file with Excel.
-      required: true
 
 - type: textarea
   attributes:
@@ -74,3 +64,14 @@ body:
     required: false
 
 
+- type: checkboxes
+  attributes:
+    label: OpenOffice and LibreOffice users
+    description: >
+      XlsxWriter maintains a high level of compatibility with Excel. However,
+      OpenOffice and LibreOffice do not always render xlsx files in the same way as Excel. 
+      It is important to first check if the issue you are reporting is due to XlsxWriter
+      or to OpenOffice or LibreOffice.
+    options:
+    - label: I have tested the output file with Excel.
+      required: true
