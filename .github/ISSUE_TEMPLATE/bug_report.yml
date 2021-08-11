@@ -48,7 +48,6 @@ body:
         - Python version:
         - Excel version:
         - OS:
-    render: markdown
   validations:
     required: false
 
