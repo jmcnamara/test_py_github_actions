@@ -48,7 +48,7 @@ testpythons:
 	@echo "Testing with Python 3.9.0:"
 	@~/.pythonbrew/pythons/Python-3.9.0/bin/py.test -q
 
-test_codestyle testpep8:
+test_flake8:
 	@ls -1 xlsxwriter/*.py | egrep -v "theme|compat|__init__" | xargs pycodestyle
 	@pycodestyle --ignore=E501 xlsxwriter/theme.py
 	@find xlsxwriter/test -name \*.py | xargs pycodestyle --ignore=E501

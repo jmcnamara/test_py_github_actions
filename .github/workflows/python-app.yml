@@ -30,7 +30,7 @@ jobs:
 
     - name: Test the code style
       run: |
-        make test_codestyle
+        make test_flake8
 
     - name: Test with pytest
       run: |
