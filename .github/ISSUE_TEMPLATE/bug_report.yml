@@ -43,7 +43,7 @@ body:
   attributes:
     label: Environment
     description: Add the information about your environment below:
-    value: |
+    placeholder: |
         - xlsxwriter version:
         - Python version:
         - Excel version:
