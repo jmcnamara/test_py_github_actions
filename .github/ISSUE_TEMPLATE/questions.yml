@@ -26,6 +26,6 @@ body:
 - type: textarea
   attributes:
     label: Question
-    description: Ask a question that doesn't belong on StackOverflow:
+    description: Ask a question that doesn't belong on StackOverflow
   validations:
     required: true
