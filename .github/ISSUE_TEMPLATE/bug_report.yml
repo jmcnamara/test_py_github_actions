@@ -34,7 +34,7 @@ body:
     label: Sample code to reproduce the issue
     description: Please add a small, complete, sample program that demonstrates your issue:
     placeholder: |
-      ```python some code```
+      some code
 
   validations:
     required:  true
