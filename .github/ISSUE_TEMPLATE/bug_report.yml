@@ -31,10 +31,10 @@ body:
 
 - type: textarea
   attributes:
-    label: Sample code to reproduce the issue
-    description: Please add a small, complete, sample program that demonstrates your issue:
+    label: Sample code to reproduce
+    description: Please add a small, complete, sample program that demonstrates your issue.
     placeholder: |
-      some code
+      some code.
 
   validations:
     required:  true
@@ -66,7 +66,7 @@ body:
 
 - type: checkboxes
   attributes:
-    label: OpenOffice and LibreOffice users
+    label: OpenOffice and Libreoffice users
     description: Please search to see if an issue already exists for the bug you encountered.
     options:
     - label: I have searched the existing issues
