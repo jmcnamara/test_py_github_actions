@@ -37,18 +37,8 @@ body:
     label: Sample code to reproduce
     description: Please add a small, complete, sample program that demonstrates your issue.
     placeholder: |
-      ```python
-      
-      import xlsxwriter
-      
-      workbook = xlsxwriter.Workbook('hello.xlsx')
-      worksheet = workbook.add_worksheet()
-      
-      worksheet.write('A1', 'Hello world')
-      
-      workbook.close()
-      
-      ```
+      some code.
+
   validations:
     required:  true
  
