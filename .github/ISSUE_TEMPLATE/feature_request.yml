@@ -1,6 +1,6 @@
 name: 🎯  Feature Request
 
-description: Feature request for xlsxwriter
+description: Request a new feature in XlsxWriter
 
 title: "feature request: <add a description here>"
 
@@ -19,6 +19,6 @@ body:
 - type: textarea
   attributes:
     label: Feature Request
-    description: Feature request
+    description: Describe the new feature that you would like to see in XlsxWriter. If the feature isn't obvious consider adding a screenshot to help explain the request.
   validations:
     required: true
