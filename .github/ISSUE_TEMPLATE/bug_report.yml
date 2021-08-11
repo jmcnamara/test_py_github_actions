@@ -11,7 +11,7 @@ assignees:
 
 body:
 
-- type: textarea
+- type: markdown
   attributes:
     label: Introduction
     value: Please fill in the sections below to submit your bug report.
