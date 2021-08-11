@@ -17,21 +17,21 @@ body:
 
 - type: textarea
   attributes:
-    label: Current behavior:
+    label: Current behavior
     description: A description of what you're experiencing.
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Expected behavior:
+    label: Expected behavior
     description: A description of what you expected to happen.
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Sample code to reproduce:
+    label: Sample code to reproduce
     description: Please add a small, complete, sample program that demonstrates your issue.
     value: |
         ```python
@@ -50,7 +50,7 @@ body:
 
 - type: textarea
   attributes:
-    label: Environment:
+    label: Environment
     description: |
       Any relevant version or system information:
     value: |
@@ -65,7 +65,7 @@ body:
 
 - type: textarea
   attributes:
-    label: Any other information:
+    label: Any other information
     description: |
       Anything that will give more context about the issue you are encountering.
 
