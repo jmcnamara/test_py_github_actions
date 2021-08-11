@@ -37,17 +37,6 @@ body:
       some code.
   validations:
     required:  true
-    
- - type: textarea
-  attributes:
-    label: Environment
-    description: Add the information about your environment below:
-    placeholder: |
-      xlsxwriter version:
-  validations:
-    required:  true
-  validations:
-    required: false
 
 - type: textarea
   attributes:
