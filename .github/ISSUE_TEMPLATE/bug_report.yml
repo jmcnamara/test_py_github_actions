@@ -17,36 +17,42 @@ body:
 
 - type: textarea
   attributes:
-    label: Current behavior
+    label: Current behavior:
     description: A description of what you're experiencing.
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Expected behavior
+    label: Expected behavior:
     description: A description of what you expected to happen.
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Sample code to reproduce
+    label: Sample code to reproduce:
     description: Please add a small, complete, sample program that demonstrates your issue.
     value: |
         ```python
-        - Python version:
-        - Excel version:
+        import xlsxwriter
+
+        workbook = xlsxwriter.Workbook('hello.xlsx')
+        worksheet = workbook.add_worksheet()
+
+        worksheet.write('A1', 'Hello world')
+
+        workbook.close()
         ```
     render: markdown
   validations:
-    required: false
+    required: true
 
 - type: textarea
   attributes:
-    label: Environment
+    label: Environment:
     description: |
-      Any any relevant version or system information:
+      Any relevant version or system information:
     value: |
         - XlsxWriter version:
         - Python version:
@@ -59,7 +65,7 @@ body:
 
 - type: textarea
   attributes:
-    label: Anything other information
+    label: Any other information:
     description: |
       Anything that will give more context about the issue you are encountering.
 
