@@ -43,8 +43,9 @@ body:
   attributes:
     label: OpenOffice and LibreOffice users
     description: >
+      XlsxWriter maintains a high level of compatibility with Excel. However,
       OpenOffice and LibreOffice do not always render xlsx files in the same way as Excel. 
-      It is important to first check if the issue you are reporting is due tto XlsxWriter
+      It is important to first check if the issue you are reporting is due to XlsxWriter
       or to OpenOffice or LibreOffice.
     options:
     - label: I have tested the output file with Excel.
@@ -52,11 +53,11 @@ body:
 
 - type: textarea
   attributes:
-    label: Anything else?
+    label: Anything other information
     description: |
-      Links? References? Anything that will give us more context about the issue you are encountering!
+      Anything that will give more context about the issue you are encountering.
 
-      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+      Tip: You can attach images by clicking this area to highlight it and then dragging files in.
   validations:
     required: false
 
